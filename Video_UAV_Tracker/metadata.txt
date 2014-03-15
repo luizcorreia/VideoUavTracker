@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Video UAV Tracker
+qgisMinimumVersion=2.0
+description=Replay a video in sync with a gps track displayed on the map. Developed with SAL Engineering (http://www.salengineering.it/), in collaboration with INGV Bologna(Istituto Nazionale Geofisica e Vulcanologia)  and University of Bologna sect. Geography (Readme.txt for more information)
+version= 1.2.3.1
+author=Salvatore Agosta - Università di Bologna - SAL Engineering
+email=sagost@katamail.com    
+website = http://www.salengineering.it/
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+changelog= Vers. 1.2.3.1 enable audio playback for eventual comment on video and it is now able to seek video both from map and from positon slider. ONLY 64 BIT SYSTEM
+
+# tags are comma separated with spaces allowed
+tags= UAV, tracker, gpx, video, gps, uav, UAS, drone, sync, synchonize, earthquake, flood, damaged map, hazard map
+
+homepage= www.salengineering.it
+tracker=
+repository=  https://sourceforge.net/projects/videouavtrackerqgisplugin/files/?source=navba
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
